@@ -16,8 +16,8 @@ public class FirstTest {
         System.setProperty("webdriver.chrome.driver", "files/chromedriver.exe");
         Configuration.startMaximized = true;
 
-        Selenide.open("https://www.google.com/");
-        $(".gLFyf").setValue("Tako Zhvania").sendKeys(Keys.ENTER);
+        Selenide.open("https://www.yahoo.com/");
+        $("._yb_11jp9").setValue("Tako Zhvania").sendKeys(Keys.ENTER);
         sleep(5000);
 
 
